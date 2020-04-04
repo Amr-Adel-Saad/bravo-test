@@ -1,0 +1,46 @@
+@import "header";
+@import "footer";
+@import "knowledge";
+@import "articles";
+@import "article";
+@import "commentSection";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 266px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'SSTArabic-Bold';
+  src: url('./fonts/fonts/SSTArabic-Bold/SSTArabic-Bold.eot') format('embedded-opentype'),  url('./fonts/fonts/SSTArabic-Bold/SSTArabic-Bold.woff') format('woff'), url('./fonts/fonts/SSTArabic-Bold/SSTArabic-Bold.ttf')  format('truetype'), url('./fonts/fonts/SSTArabic-Bold/SSTArabic-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SSTArabic-Light';
+  src: url('./fonts/fonts/SSTArabic-Light/SSTArabic-Light.eot') format('embedded-opentype'),  url('./fonts/fonts/SSTArabic-Light/SSTArabic-Light.woff') format('woff'), url('./fonts/fonts/SSTArabic-Light/SSTArabic-Light.ttf')  format('truetype'), url('./fonts/fonts/SSTArabic-Light/SSTArabic-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SSTArabic-Medium';
+  src: url('./fonts/fonts/SSTArabic-Medium/SSTArabic-Medium.eot') format('embedded-opentype'),  url('./fonts/fonts/SSTArabic-Medium/SSTArabic-Medium.woff') format('woff'), url('./fonts/fonts/SSTArabic-Medium/SSTArabic-Medium.ttf')  format('truetype'), url('./fonts/fonts/SSTArabic-Medium/SSTArabic-Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SSTArabic-Roman';
+  src: url('./fonts/fonts/SSTArabic-Roman/SSTArabic-Roman.eot') format('embedded-opentype'),  url('./fonts/fonts/SSTArabic-Roman/SSTArabic-Roman.woff') format('woff'), url('./fonts/fonts/SSTArabic-Roman/SSTArabic-Roman.ttf')  format('truetype'), url('./fonts/fonts/SSTArabic-Roman/SSTArabic-Roman.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

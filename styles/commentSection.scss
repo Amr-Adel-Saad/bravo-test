@@ -1,0 +1,46 @@
+.commentsForm {
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D7F97;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 200px;
+    max-height: 300px;
+  }
+
+  label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666666;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  button {
+    width: 20%;
+    background-color: #14A99B;
+  }
+}
+
+.comments {
+  font-size: 20px;
+
+  h4 {
+    font-weight: bold;
+    color: #666666;
+  }
+
+  small {
+    color: #999999;
+  }
+
+  p {
+    margin: 20px auto;
+    color: #999999;
+  }
+}

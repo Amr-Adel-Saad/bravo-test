@@ -1,0 +1,35 @@
+.article {
+  width: 80% !important;
+  font-family: 'SSTArabic-Roman';
+
+  p {
+    margin-top: 20px;
+    font-size: 10px;
+    span {
+      opacity: 0.5;
+    }
+  }
+
+  h1 {
+    color: #14A99B;
+    margin: 20px auto;
+    font-size: 24px;
+  }
+
+  .rectangle {
+    height: 4px;
+    width: 68px;
+    background-color: #14A99B;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #0D7F97;
+    margin: 30px auto;
+  }
+
+  .article-body {
+    font-size: 16px;
+  }
+}
